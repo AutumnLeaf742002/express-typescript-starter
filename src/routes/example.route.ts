@@ -3,6 +3,6 @@ const router = Router()
 
 import { example } from "../controllers/example.controller.js";
 
-router.post("/example", example)
+router.get("/example", example)
 
 export default router
